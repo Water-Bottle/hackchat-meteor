@@ -1,7 +1,9 @@
 Router.route('/', function () {
+
   this.render('home');
 });
 
-Router.route('/about', function () {
-  this.render('about');
+Router.route('/dashboard', function () {
+  this.render('dashboard');
 });
+
